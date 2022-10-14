@@ -8,7 +8,6 @@
 
 // Imports
 import java.util.Scanner;
-
 /**
 *  Main class.
 */
@@ -45,7 +44,7 @@ final class Main {
 
             int num = 0;
             answer = scan.nextLine();
-
+            
             switch (answer.toLowerCase()) {
                 case "pop":
                     System.out.println(stack.popItem());
